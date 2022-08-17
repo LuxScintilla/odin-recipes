@@ -1,0 +1,35 @@
+.body-background{
+    background-color: #202020;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    width: auto;
+    height: cover;
+}
+
+.header-title{
+    font-size: 32px;
+    font-family: cursive;
+    color: #E6A567;
+}
+
+.logo{
+    background-position: center;
+}
+
+ul{
+    list-style-type:none
+}
+
+ul li{
+    float: left;
+    padding: 10px;
+
+}
+
+li img{
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+}
