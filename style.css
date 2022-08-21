@@ -1,22 +1,17 @@
-.body-background{
+#wrapper{
     background-color: #202020;
-    background-image: url(./images/background.jpg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    width: auto;
-    height: cover;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .header-title{
-    padding-left: 360px;
     font-size: 46px;
     font-family: cursive;
     color: #E6A567;
 }
 
 .logo{
-    padding-left: 400px;
     width: 200px;
     height: 200px;
 }
@@ -27,8 +22,6 @@ ul{
 
 ul li{
     float: left;
-    text-align: center;
-
 }
 
 li img{
@@ -37,14 +30,15 @@ li img{
     height: 540px;
     margin-left: 6px;
     margin-right: 6px;
+    text-align: center;
 }
 
-.zoom{
-    transition: transform .2s;
-    width: 300px;
-    height: 580px;
+.fade{
+    opacity: 0.6;
 }
   
-.zoom:hover{
-    transform: scale(1.1);
+
+.fade:hover{
+    transition:ease-in .2s;
+    opacity: 1;
 }
